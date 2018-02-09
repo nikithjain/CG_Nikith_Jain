@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A">
+<test name="Facebook Login">
+    <classes>
+        <class name="com.core.hybrid.Core_Hybrid_Framework.testcases.FacebookLogin" ></class>  
+    </classes>
+</test>
+
+
+
+
+</suite>
+

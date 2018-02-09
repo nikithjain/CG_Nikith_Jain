@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite A]">
+  <test name="Facebook Login(failed)">
+    <parameter name="data1" value="Test1"/>
+    <classes>
+      <class name="com.core.hybrid.Core_Hybrid_Framework.testcases.FacebookLogin">
+        <methods>
+          <include name="doLogin"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.core.hybrid.Core_Hybrid_Framework.testcases.FacebookLogin -->
+    </classes>
+  </test> <!-- Facebook Login(failed) -->
+</suite> <!-- Failed suite [Suite A] -->
